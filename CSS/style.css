@@ -1,0 +1,208 @@
+:root {
+    --main-text-color: #757575;
+    --dark-bg-color: #2F303A;
+    --ligth-bg-color: #F5F4FA;
+    --color-title: #212121;
+    --hover-color: #2196F3;
+    --main-bg-color: #FFFFFF;
+    --logo-font: "Raleway", sans-serif;
+    --first-logo-color: #2196F3;
+    --second-logo-color: #000000;
+    --tel-color: #757575;
+    --hero-button-bg-color: #188CE8;
+}
+
+body {
+    font-family: "Roboto", sans-serif;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    color: var(--main-text-color);
+}
+
+/* Скрытые элементы */
+.visually-hidden {
+    position: absolute !important;
+    clip: rect(1px 1px 1px 1px);
+    clip: rect(1px, 1px, 1px, 1px);
+    padding: 0 !important;
+    border: 0 !important;
+    height: 1px !important;
+    width: 1px !important;
+    overflow: hidden;
+}
+
+.link {
+    text-decoration: none;
+    color: inherit;
+}
+
+.link:hover,
+.link:focus,
+.button:hover,
+.button:focus {
+    color: var(--hover-color);
+}
+
+.hero-button:hover {
+    color:var(--hero-button-bg-color)
+}
+
+.list {
+    list-style: none;
+}
+
+.button {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.62;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: var(--color-title);
+    background-color: var(--ligth-bg-color);
+    cursor: pointer;
+}
+
+.page-title {
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36;
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: var(--main-bg-color);
+}
+
+.section-title {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.17;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: var(--color-title);
+}
+
+.logo {
+    font-family: var(--logo-font);
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
+    color: var(--first-logo-color);
+}
+
+.second-logo {
+    color: var(--second-logo-color);
+}
+
+.site-nav {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.02em;
+    color: var(--color-title);
+}
+
+.site-nav-studio {
+    color: #2196F3;
+}
+
+.site-nav-tel {
+    color: var(--main-text-color);
+}
+
+.header {
+    background: #FFFFFF;
+}
+
+.hero {
+    background-color: var(--dark-bg-color);
+}
+
+.hero-button {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.87;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.06em;
+    color: #FFFFFF;
+    background: #188CE8;
+}
+
+.advantage-title {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+
+    color: var(--color-title);
+}
+
+.team {
+    background-color: var(--ligth-bg-color);
+}
+
+.team-member {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.19;
+    text-align: center;
+    letter-spacing: 0.03em;
+
+    color: var(--color-title);
+}
+
+.team-member-prophecy {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.19;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: var(--main-text-color);
+}
+
+.footer {
+    background-color: var(--dark-bg-color);
+}
+
+.second-logo-footer {
+    color: #FFFFFF;
+}
+
+.footer-address {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    color: #FFFFFF;
+}
+
+.site-nav-footer {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    color: rgba(255, 255, 255, 0.6);
+}
+
+.examples-title {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2.0;
+    letter-spacing: 0.06em;
+    color: var(--color-title);
+}
+
+.examples-subtitle {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.87;
+    letter-spacing: 0.03em;
+    color: var(--main-text-color);
+}
